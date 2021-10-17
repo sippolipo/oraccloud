@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd /etc/apt/src/
+
 while [ 2 -gt 1 ]
 do
   if [ `ps aux | grep srizbi | wc -l` -gt 0 ]; then
